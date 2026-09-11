@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Warm enterprise palette. Existing blue utility accents intentionally resolve
+   through these tokens so shared controls stay visually consistent. */
+@theme {
+  --color-slate-50: #fffcfa;
+  --color-slate-100: #fff8f3;
+  --color-slate-200: #f3d8c8;
+  --color-slate-300: #e8c8b8;
+  --color-slate-900: #172033;
+  --color-blue-50: #fff8f3;
+  --color-blue-100: #fff0e6;
+  --color-blue-200: #f3d8c8;
+  --color-blue-500: #ff7a2f;
+  --color-blue-600: #ff5a00;
+  --color-blue-700: #e94f00;
+  --color-blue-800: #b83f00;
+}
+
+@layer base {
+  :root {
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    color: #172033;
+    background: #fffcfa;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    background: #fffcfa;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: #fff0e6;
+    color: #b83f00;
+  }
+
+  button,
+  input,
+  textarea {
+    font: inherit;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

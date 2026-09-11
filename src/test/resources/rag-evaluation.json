@@ -1,0 +1,30 @@
+[
+  {
+    "question": "What is the notice period for resignation?",
+    "expectedAnswerContains": ["1 month", "3 months"],
+    "expectedSourceDocument": "Notice_Period_Policy.pdf",
+    "expectedSourcePages": [1, 2],
+    "shouldAnswerFromContext": true
+  },
+  {
+    "question": "What is the notice period for the technical team?",
+    "expectedAnswerContains": ["3 months"],
+    "expectedSourceDocument": "Notice_Period_Policy.pdf",
+    "expectedSourcePages": [1, 2],
+    "shouldAnswerFromContext": true
+  },
+  {
+    "question": "What is the notice period for the non-technical team?",
+    "expectedAnswerContains": ["1 month"],
+    "expectedSourceDocument": "Notice_Period_Policy.pdf",
+    "expectedSourcePages": [2],
+    "shouldAnswerFromContext": true
+  },
+  {
+    "question": "What is the capital of France?",
+    "expectedAnswerContains": [],
+    "expectedSourceDocument": null,
+    "expectedSourcePages": [],
+    "shouldAnswerFromContext": false
+  }
+]
