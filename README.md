@@ -1,6 +1,7 @@
-# DocSearch — AI-Powered Enterprise Search Platform
+# DocSearch-Chatbot
+ AI-Powered Enterprise Search Platform
 
-DocSearch is a full-stack AI-powered enterprise document search platform that enables users to upload PDF documents, perform semantic search, and ask natural-language questions over their documents.
+DocSearch-Chatbot is a full-stack AI-powered enterprise document search platform that enables users to upload PDF documents, perform semantic search, and ask natural-language questions over their documents.
 
 The system uses **Retrieval-Augmented Generation (RAG)** to retrieve relevant document content and provide grounded AI responses with document and page-level citations.
 
@@ -80,3 +81,101 @@ Includes an evaluation framework for measuring:
         └────────────────┘ └───────────────┘ │ llama3.2:3b    │
                                              │ nomic-embed-text│
                                              └────────────────┘
+
+
+
+## 🔄 RAG Pipeline
+
+The core document question-answering pipeline works as follows:
+
+```text
+PDF Upload
+    │
+    ▼
+Text Extraction
+    │
+    ▼
+Page-aware Chunking
+    │
+    ▼
+Embedding Generation
+    │
+    ▼
+PostgreSQL + pgvector
+    │
+    ▼
+User Question
+    │
+    ▼
+Query Normalization
+    │
+    ▼
+Query Embedding
+    │
+    ▼
+Vector Similarity Search
+    │
+    ▼
+Top-K Relevant Chunks
+    │
+    ▼
+Context Construction
+    │
+    ▼
+Grounded RAG Prompt
+    │
+    ▼
+Local LLM (Ollama)
+    │
+    ▼
+Answer + Citations
+
+
+## 🛠️ Tech Stack
+
+### Backend
+
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- REST APIs
+- Maven
+
+### Database
+
+- PostgreSQL
+- pgvector
+- Cosine similarity search
+
+### AI / LLM
+
+- Ollama
+- `llama3.2:3b`
+- `nomic-embed-text`
+- Retrieval-Augmented Generation (RAG)
+- Vector embeddings
+- Semantic search
+
+### Document Processing
+
+- Apache PDFBox
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Axios
+- React Router
+- Lucide React
+
+### Dev Tools
+
+- Docker
+- Git
+- GitHub
+- IntelliJ IDEA
+- Postman
+- DBeaver
