@@ -88,7 +88,6 @@ Includes an evaluation framework for measuring:
 
 The core document question-answering pipeline works as follows:
 
-```text
 PDF Upload
     │
     ▼
