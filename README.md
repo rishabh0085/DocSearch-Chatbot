@@ -88,93 +88,43 @@ Includes an evaluation framework for measuring:
 
 The core document question-answering pipeline works as follows:
 
-PDF Upload
+**PDF Upload**
     │
     ▼
-Text Extraction
+**Text Extraction**
     │
     ▼
-Page-aware Chunking
+**Page-aware Chunking**
     │
     ▼
-Embedding Generation
+**Embedding Generation**
     │
     ▼
-PostgreSQL + pgvector
+**PostgreSQL + pgvector**
     │
     ▼
-User Question
+**User Question**
     │
     ▼
-Query Normalization
+**Query Normalization**
     │
     ▼
-Query Embedding
+**Query Embedding**
     │
     ▼
-Vector Similarity Search
+**Vector Similarity Search**
     │
     ▼
-Top-K Relevant Chunks
+**Top-K Relevant Chunks**
     │
     ▼
-Context Construction
+**Context Construction**
     │
     ▼
-Grounded RAG Prompt
+**Grounded RAG Prompt**
     │
     ▼
-Local LLM (Ollama)
+**Local LLM (Ollama)**
     │
     ▼
-Answer + Citations
-
-
-## 🛠️ Tech Stack
-
-### Backend
-
-- Java 21
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- REST APIs
-- Maven
-
-### Database
-
-- PostgreSQL
-- pgvector
-- Cosine similarity search
-
-### AI / LLM
-
-- Ollama
-- `llama3.2:3b`
-- `nomic-embed-text`
-- Retrieval-Augmented Generation (RAG)
-- Vector embeddings
-- Semantic search
-
-### Document Processing
-
-- Apache PDFBox
-
-### Frontend
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Axios
-- React Router
-- Lucide React
-
-### Dev Tools
-
-- Docker
-- Git
-- GitHub
-- IntelliJ IDEA
-- Postman
-- DBeaver
+**Answer + Citations**
