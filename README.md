@@ -88,43 +88,43 @@ Includes an evaluation framework for measuring:
 
 The core document question-answering pipeline works as follows:
 
-**PDF Upload**
+PDF Upload
     │
     ▼
-**Text Extraction**
+Text Extraction
     │
     ▼
-**Page-aware Chunking**
+Page-aware Chunking
     │
     ▼
-**Embedding Generation**
+Embedding Generation
     │
     ▼
-**PostgreSQL + pgvector**
+PostgreSQL + pgvector
     │
     ▼
-**User Question**
+User Question
     │
     ▼
-**Query Normalization**
+Query Normalization
     │
     ▼
-**Query Embedding**
+Query Embedding
     │
     ▼
-**Vector Similarity Search**
+Vector Similarity Search
     │
     ▼
-**Top-K Relevant Chunks**
+Top-K Relevant Chunks
     │
     ▼
-**Context Construction**
+Context Construction
     │
     ▼
-**Grounded RAG Prompt**
+Grounded RAG Prompt
     │
     ▼
-**Local LLM (Ollama)**
+Local LLM (Ollama)
     │
     ▼
-**Answer + Citations**
+Answer + Citations
