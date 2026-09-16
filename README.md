@@ -132,4 +132,4 @@ Answer + Citations
 
 # Screenshots
 
-![DocSearch-Chatbot Screenshot](https://raw.githubusercontent.com/rishabh0085/DocSearch-Chatbot/main/Screenshot%20(293).png)
+![image alt](https://github.com/rishabh0085/DocSearch-Chatbot/blob/main/Screenshot%20(293).png?raw=true)
