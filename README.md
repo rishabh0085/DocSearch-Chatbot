@@ -129,30 +129,30 @@ Answer + Citations
 
 ## Screenshots
 
-### Screenshot 1
+### Screenshot 293
 
-![DocSearch Screenshot 1](screenshots/screenshot-293.png)
+![Screenshot 293](./Screenshot%20%28293%29.png)
 
-### Screenshot 2
+### Screenshot 292
 
-![DocSearch Screenshot 2](screenshots/screenshot-292.png)
+![Screenshot 292](./Screenshot%20%28292%29.png)
 
-### Screenshot 3
+### Screenshot 291
 
-![DocSearch Screenshot 3](screenshots/screenshot-291.png)
+![Screenshot 291](./Screenshot%20%28291%29.png)
 
-### Screenshot 4
+### Screenshot 290
 
-![DocSearch Screenshot 4](screenshots/screenshot-290.png)
+![Screenshot 290](./Screenshot%20%28290%29.png)
 
-### Screenshot 5
+### Screenshot 289
 
-![DocSearch Screenshot 5](screenshots/screenshot-289.png)
+![Screenshot 289](./Screenshot%20%28289%29.png)
 
-### Screenshot 6
+### Screenshot 288
 
-![DocSearch Screenshot 6](screenshots/screenshot-288.png)
+![Screenshot 288](./Screenshot%20%28288%29.png)
 
-### Screenshot 7
+### Screenshot 287
 
-![DocSearch Screenshot 7](screenshots/screenshot-287.png)
+![Screenshot 287](./Screenshot%20%28287%29.png)
