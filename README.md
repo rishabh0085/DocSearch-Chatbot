@@ -55,11 +55,8 @@ Includes an evaluation framework for measuring:
 - Citation validity
 - Grounded-answer rate
 
----
-
 ## 🏗️ Architecture
 
-```text
                         ┌──────────────────────┐
                         │      React + TS      │
                         │       Frontend       │
@@ -130,6 +127,32 @@ Local LLM (Ollama)
 Answer + Citations
 
 
-# Screenshots
+## Screenshots
 
-![image alt](https://github.com/rishabh0085/DocSearch-Chatbot/blob/main/Screenshot%20(293).png?raw=true)
+### Screenshot 1
+
+![DocSearch Screenshot 1](screenshots/screenshot-293.png)
+
+### Screenshot 2
+
+![DocSearch Screenshot 2](screenshots/screenshot-292.png)
+
+### Screenshot 3
+
+![DocSearch Screenshot 3](screenshots/screenshot-291.png)
+
+### Screenshot 4
+
+![DocSearch Screenshot 4](screenshots/screenshot-290.png)
+
+### Screenshot 5
+
+![DocSearch Screenshot 5](screenshots/screenshot-289.png)
+
+### Screenshot 6
+
+![DocSearch Screenshot 6](screenshots/screenshot-288.png)
+
+### Screenshot 7
+
+![DocSearch Screenshot 7](screenshots/screenshot-287.png)
