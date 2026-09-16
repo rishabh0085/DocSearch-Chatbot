@@ -128,3 +128,8 @@ Local LLM (Ollama)
     │
     ▼
 Answer + Citations
+
+
+# Screenshots
+
+![DocSearch-Chatbot Screenshot](https://raw.githubusercontent.com/rishabh0085/DocSearch-Chatbot/main/Screenshot%20(293).png)
